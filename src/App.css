@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  background: #131319;
+}
+
+body, #root {
+  @apply min-h-screen overflow-x-hidden;
+}
+
+.bg-container {
+  background-color: #26292dff;
+}
+
+.bg-message-container {
+  background-color: #191920;
+}
+.post-container {
+  border-radius: 8px;
+  border: 2px solid #35373B;
+  background: #27292D;
+}
